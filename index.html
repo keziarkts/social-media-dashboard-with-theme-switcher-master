@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | [Social Media Dashboard]</title>
+</head>
+<body>
+<div class="top-rectangle"></div>
+
+  <section class="all-content">
+    <header class="header">
+      <div class="left-side">
+        <h1>Social Media Dashboard</h1>
+        <p class="total-followers">Total Followers: 23,004</p> 
+      </div>
+      <div class="right-side" id="mode-section">
+        <p class="mode" id="dark-mode">Dark Mode</p>
+        <p class="mode" id="light-mode">Light Mode</p>
+        <div class="toggle" onclick="myToggleFunction()">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="first-section main-row">
+      <div class="col col-fb">
+        <div class="username">
+          <img src="images/icon-facebook.svg" alt="">
+          <p class="username-text">@nathanf</p>
+        </div>
+        <p class="nb-followers">1987</p>
+        <p class="followers">Followers</p>
+        <div class="nb-update">
+          <img src="images/icon-up.svg" alt="">
+          <p class="nb-update-text-up">12 Today</p>
+        </div>
+      </div>
+      
+      <div class="col col-twitter">
+        <div class="username">
+          <img src="images/icon-twitter.svg" alt="">
+          <p class="username-text">@nathanf</p>
+        </div>
+        <p class="nb-followers">1044</p>
+        <p class="followers">Followers</p>
+        <div class="nb-update">
+          <img src="images/icon-up.svg" alt="">
+          <p class="nb-update-text-up">99 Today</p>
+        </div>
+      </div>
+      
+      <div class="col col-ig">
+        <div class="username">
+          <img src="images/icon-instagram.svg" alt="">
+          <p class="username-text">@realnathanf</p>
+        </div>
+        <p class="nb-followers">11k</p>
+        <p class="followers">Followers</p>
+        <div class="nb-update">
+          <img src="images/icon-up.svg" alt="">
+          <p class="nb-update-text-up">1099 Today</p>
+        </div>
+      </div>
+      
+      <div class="col col-ytb">
+        <div class="username">
+          <img src="images/icon-youtube.svg" alt="">
+          <p class="username-text">Nathan F.</p>
+        </div>
+        <p class="nb-followers">8239</p>
+        <p class="followers">Subscribers</p>
+        <div class="nb-update">
+          <img src="images/icon-down.svg" alt="">
+          <p class="nb-update-text-down">144 Today</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section">
+      <h2>Overview - Today</h2>
+      <div class="row-1">
+        <div class="col col-1">
+          <div class="col-1-content">
+              <div class="first-line">
+              <p class="block-title">Page Views</p>
+              <img src="images/icon-facebook.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">87</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats-up">3%</p>
+              </div>
+              
+            </div>
+          </div>          
+        </div>
+        <div class="col col-2">
+          <div class="col-2-content">
+            <div class="first-line">
+              <p class="block-title">Likes</p>
+              <img src="images/icon-facebook.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">52</p>
+              <div class="stats">
+                <img src="images/icon-down.svg" alt="">
+                <p class="stats-down">2%</p>
+              </div>
+              
+            </div>
+          </div>          
+        </div>
+        <div class="col col-3">
+          <div class="col-3-content">
+            <div class="first-line">
+              <p class="block-title">Likes</p>
+              <img src="images/icon-instagram.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">5462</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats stats-up">2257%</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col col-4">
+          <div class="col-4-content">
+            <div class="first-line">
+              <p class="block-title">Profile Views</p>
+              <img src="images/icon-instagram.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">52k</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats stats-up">1375%</p>
+              </div>              
+            </div>
+          </div>          
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="col col-1">
+          <div class="col-1-content">
+            <div class="first-line">
+              <p class="block-title">Retweets</p>
+              <img src="images/icon-twitter.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">117</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats stats-up">303%</p>
+              </div>              
+            </div>
+          </div>          
+        </div>
+        <div class="col col-2">
+          <div class="col-2-content">
+            <div class="first-line">
+              <p class="block-title">Likes</p>
+              <img src="images/icon-twitter.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">507</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats stats-up">553%</p>
+              </div>              
+            </div>
+          </div>
+        </div>
+        <div class="col col-3">
+          <div class="col-3-content">
+            <div class="first-line">
+              <p class="block-title">Likes</p>
+              <img src="images/icon-youtube.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">107</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats stats-up">19%</p>
+              </div>              
+            </div>
+          </div>          
+        </div>
+        <div class="col col-4">
+          <div class="col-4-content">
+            <div class="first-line">
+              <p class="block-title">Total Views</p>
+              <img src="images/icon-youtube.svg" alt="">
+            </div>
+            <div class="second-line">
+              <p class="block-nb">1407</p>
+              <div class="stats">
+                <img src="images/icon-up.svg" alt="">
+                <p class="stats stats-up">12%</p>
+              </div>              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>  
+    
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
